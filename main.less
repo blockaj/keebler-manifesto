@@ -1,0 +1,73 @@
+@red: #A80000;
+@gold: #D1CC00; 
+@gray: #F0F0F0;
+
+@serif: "Droid Serif", serif;
+@sans-serif: "Roboto", sans-serif;
+
+.transition(@input) {
+	-webkit-transition: @input;
+	-moz-transition: @input;
+	transition: @input;
+}
+
+html {
+	margin: 0;
+	height: 100%;
+	background-color: @gray;
+}
+h1, h2 {
+	margin: 0;
+	font-family: @sans-serif;
+	font-weight: 900;
+}
+p {
+	font-family: @serif;
+	font-size: 1.6rem;
+}
+.header {
+	height: 750px;
+	background: 
+		linear-gradient(
+            rgba(168, 0, 0, 0.5),
+            rgba(168, 0, 0, 0.5)
+		),
+		url('http://cdn3.freedomoutpost.com/wp-content/uploads/2014/01/karl-marx.jpg');
+	background-size: cover;
+	h1 {
+		width: 60%;
+		margin: 0 auto;
+		display: block;
+		font-size: 8rem;
+		color: @gold;
+		text-align: center;
+	}
+}
+.header-text {
+	position: absolute;
+	top: 20%;
+}
+.subheader {
+	padding-top: 15px;
+	text-align: center;
+	color: @gold;
+	font-size: 2em;
+}
+.section {
+	margin-bottom: 30px;
+	h1 {
+		color: @red;
+	}
+}
+.quote {
+	font-size: 2em;
+	font-family: @serif;
+	color: @red;
+	font-weight: 700;
+}
+.author {
+	text-align: right;
+}
+.toc {
+
+}

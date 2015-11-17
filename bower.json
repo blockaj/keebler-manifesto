@@ -1,0 +1,11 @@
+{
+	"name": "Marxism",
+	"description": "An informational website about marxism",
+	"dependencies": {
+		"jquery": "*",
+		"bootstrap": "*",
+		"waypoints": "*",
+		"skrollr": "*"
+	}
+}
+
