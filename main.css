@@ -17,6 +17,7 @@ p {
   height: 750px;
   background: linear-gradient(rgba(168, 0, 0, 0.5), rgba(168, 0, 0, 0.5)), url('http://cdn3.freedomoutpost.com/wp-content/uploads/2014/01/karl-marx.jpg');
   background-size: cover;
+  margin-bottom: 2rem;
 }
 .header h1 {
   width: 60%;
@@ -31,13 +32,13 @@ p {
   top: 20%;
 }
 .subheader {
-  padding-top: 15px;
+  padding-top: 1rem;
   text-align: center;
   color: #d1cc00;
   font-size: 2em;
 }
 .section {
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 .section h1 {
   color: #a80000;
